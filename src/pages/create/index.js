@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
-import LayoutContent from '../.././components/layout'
+import styled from 'styled-components'
+import {CreateForm} from '../../components/create'
+import {WeatherBar, Header} from '../../components/common'
+
 class CreatePage extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return ( 
-            <LayoutContent title='Tạo kèo'>
-                Code nội dung ở đây
-            </LayoutContent>
-         );
-    }
+  constructor(props) {
+    super(props);
+    this.state = {  }
+  }
+  render() { 
+    return (
+      <>
+      <Header/>
+      <WeatherBar/>
+      <CreateForm/>
+      </>
+      )
+  }
 }
  
-export default CreatePage;
+export default CreatePage
