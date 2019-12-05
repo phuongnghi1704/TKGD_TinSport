@@ -12,8 +12,6 @@ function App() {
         <Route exact path="/join" component={JoinPage} />
         <Route exact path="/" component={ListPage} />
         <Route exact path="/create" component={CreatePage} />
-
-
       </Router>
     </div>
   );
