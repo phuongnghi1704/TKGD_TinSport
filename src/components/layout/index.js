@@ -2,6 +2,7 @@ import React, { Component, Children } from 'react';
 import { Layout, Breadcrumb } from 'antd';
 import CardUser from '.././user-card'
 import { Row, Col, Tag, Icon } from "antd";
+import {Link} from 'react-router-dom'
 
 const { Header, Footer, Content } = Layout;
 
@@ -15,8 +16,12 @@ class LayoutContent extends Component {
       <Layout className="layout">
       <Header style={{background:'#4690DB',height:120}}>
         <div style={{display:'flex'}}>
-        <h1 style={{color:'white',fontSize:'70px',marginTop:'24px'}}>TinSport</h1>
-        <CardUser   />
+          <Link to='/'>
+          <h1 style={{color:'white',fontSize:'70px',marginTop:'24px'}}>TinSport</h1>
+          </Link>
+        <div style={{paddingLeft:'700px'}}>
+        <CardUser  />
+        </div>
         </div>
         <Row>
         </Row>

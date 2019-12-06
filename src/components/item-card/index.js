@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from'react-router-dom'
 import {Button} from 'antd'
 class ItemCard extends Component {
     constructor(props) {
@@ -13,7 +14,9 @@ class ItemCard extends Component {
                 <h3>{item.type} || {item.time} || {item.address} </h3>
                 <p>{item.detail}</p>
                 </div>    
+                <Link to='/join'>
                 <Button style={{float:'right',margin:'10px 10px 10px 400px'}} type='primary'>Xem chi tiết</Button>
+                </Link>
             </div>
          );
     }

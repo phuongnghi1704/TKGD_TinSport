@@ -11,7 +11,7 @@ class CardUser extends Component {
     render() {
         return (
             <Card
-                style={{ width: 250,height:100, borderRadius:'20px',marginTop:'10px',marginLeft:'600px' }}
+                style={{ width: 250,height:100, borderRadius:'20px',borderStyle:'groove',margin:'10px' }}
             >
                 <Meta
                     avatar={<Avatar src="https://img.icons8.com/officel/16/000000/person-male.png" />}

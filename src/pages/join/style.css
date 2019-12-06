@@ -1,0 +1,35 @@
+.item-info{
+    background:white;
+    border-style:groove;
+    border-radius:5px;
+    height:300px;
+    margin:20px;
+    padding:10px;
+}
+
+.users-info{
+    display:flex;
+    background:white;
+    border-style:groove;
+    border-radius:5px;
+    height:150px;
+    margin:20px;
+    padding:10px;
+}
+
+.icon-more {
+    font-size: 40px;  
+}
+.div-icon-user-more{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 65px
+}
+
+.user-create {
+    display:flex;
+    margin:15px;
+    align-items: center;
+}
