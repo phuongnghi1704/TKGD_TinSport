@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import {CreateForm} from '../../components/create'
-import {WeatherBar, Header} from '../../components/common'
+import {WeatherBar, Header, Footer} from '../../components/common'
 
 class CreatePage extends Component {
   constructor(props) {
@@ -14,6 +14,7 @@ class CreatePage extends Component {
       <Header/>
       <WeatherBar/>
       <CreateForm/>
+      <Footer/>
       </>
       )
   }

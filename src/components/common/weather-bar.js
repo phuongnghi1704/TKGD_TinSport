@@ -32,7 +32,7 @@ class WeatherBar extends Component {
         <Item>10/11/2019</Item>
         <Item>8:30</Item>
         <Item>TP.HCM</Item>
-        <Item>Ngay dep troi</Item>
+        <Item>Ngày đẹp trời</Item>
       </Wrapper>
     )
   }
