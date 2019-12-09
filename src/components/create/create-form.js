@@ -143,7 +143,7 @@ class CreateForm extends Component {
     return (
       <Wrapper className='create-form-wrapper'>
         <Form className='create-form' onSubmit={this.handleSubmit}>
-          <Title style={{margin: '20px 0 0', display: ''}}>Nhập thông tin kèo</Title>
+          <Title style={{margin: '20px 0 0', display: ''}}>Nhập thông tin hội</Title>
           <RowElement>
             <Col span={12} >
             <Select
@@ -206,7 +206,7 @@ class CreateForm extends Component {
             </Col>
           </RowElement>
           <RowElement>
-          <Button style={{transform: 'translateX(350px)', color: 'black'}} type='danger' htmlType='submit'>+ Tạo kèo</Button>
+          <Button style={{transform: 'translateX(350px)', color: 'black'}} type='danger' htmlType='submit'>+ Tạo hội</Button>
           </RowElement>
         </Form>
       </Wrapper>

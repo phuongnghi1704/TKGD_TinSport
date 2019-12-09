@@ -37,7 +37,7 @@ class ListPage extends Component {
     render() {
         const { chosen } = this.state
         return (
-            <LayoutContent title="Danh sách kèo">
+            <LayoutContent title="Danh sách hội">
                 <div>
                     <Select
                         showSearch
@@ -50,7 +50,7 @@ class ListPage extends Component {
                         <Option value='volleyball' >Môn bóng chuyền</Option>
                     </Select>
                     <Link to='/create'>
-                        <Button type='primary' style={{ float: "right" }}> + Tạo kèo</Button>
+                        <Button type='primary' style={{ float: "right" }}> + Tạo hội</Button>
                     </Link>
                 </div>
                 {
@@ -78,7 +78,7 @@ class ListPage extends Component {
                     
                     </div>
                 }
-                <h1 align='center' style={{margin:'10px'}}>Kèo mới</h1>
+                <h1 align='center' style={{margin:'10px'}}>Hội mới</h1>
                 <div style={{padding:'10px',display:'flex',flexDirection:'column',alignItems:'center'}}>
                 {this.data.map((obj,i)=> <ItemCard key={i} item ={obj}/>)}
                 </div>

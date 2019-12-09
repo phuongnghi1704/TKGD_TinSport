@@ -22,7 +22,7 @@ class SearchInput extends Component {
                     <Option value='volleyball' >Môn bóng chuyền</Option>
                 </Select>
                 <Link to='/create'>
-                    <Button type='primary' style={{ float: "right" }}> + Tạo kèo</Button>
+                    <Button type='primary' style={{ float: "right" }}> + Tạo hội</Button>
                 </Link>
             </div>
         );

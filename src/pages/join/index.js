@@ -10,16 +10,16 @@ class JoinPage extends Component {
     }
     render() { 
         return ( 
-            <LayoutContent title='Tham gia kèo'>
+            <LayoutContent title='Tham gia hội'>
                 <div className='item-info'>
-                  <h2>Thông tin kèo</h2>
+                  <h2>Thông tin hội</h2>
                   <div className='user-create'>
                   <span style={{fontSize:'16px',fontWeight:500}}>Người tạo</span>
                   <CardUser />
                   </div>
                   <Row></Row>
                   <div>
-                    <Button style={{transform: 'translateX(350px)', color: 'black'}} type='primary' htmlType='submit'>Tham gia kèo</Button>
+                    <Button style={{transform: 'translateX(350px)', color: 'black'}} type='primary' htmlType='submit'>Tham gia hội</Button>
                   </div>
                 
                 </div>
