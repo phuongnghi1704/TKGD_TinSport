@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LayoutContent from '../../components/layout'
 import CardUser from '../../components/user-card'
-import {Icon} from'antd'
+import {Icon, Button, Row} from'antd'
 import './style.css'
 class JoinPage extends Component {
     constructor(props) {
@@ -17,10 +17,11 @@ class JoinPage extends Component {
                   <span style={{fontSize:'16px',fontWeight:500}}>Người tạo</span>
                   <CardUser />
                   </div>
+                  <Row></Row>
                   <div>
-                
+                    <Button style={{transform: 'translateX(350px)', color: 'black'}} type='primary' htmlType='submit'>Tham gia kèo</Button>
                   </div>
-                 
+                
                 </div>
                 <div className='users-info'>
                     <CardUser/> 

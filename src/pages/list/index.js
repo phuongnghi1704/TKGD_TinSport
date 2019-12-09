@@ -78,7 +78,7 @@ class ListPage extends Component {
                     
                     </div>
                 }
-                 <h1 align='center' style={{margin:'10px'}}>Kèo mới</h1>
+                <h1 align='center' style={{margin:'10px'}}>Kèo mới</h1>
                 <div style={{padding:'10px',display:'flex',flexDirection:'column',alignItems:'center'}}>
                 {this.data.map((obj,i)=> <ItemCard key={i} item ={obj}/>)}
                 </div>
